@@ -1,0 +1,1080 @@
+body{
+  background-color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nav-div{
+  position: fixed;
+  left:0;
+  top:0;
+  width: 100%;
+  height: 10%;
+  box-shadow: 4px 2px grey;
+  position:fixed;
+  z-index: 2;
+  background: white;
+}
+.nav-header{
+  margin-top: 0;
+  color:rgb(56, 151, 189);
+  font-size: 1.8rem;
+  background: transparent;z-index: 1;
+
+}
+.nav-menu{
+  display: inline-flex;
+  background: transparent;
+  margin-left: 25%;
+  justify-content: space-between;
+  z-index: 1;
+
+}
+.nav-btn {
+  background: transparent;
+  border: transparent;
+  transition: all 0.3s linear;
+  font-size: 2rem;
+  color:rgb(87, 91, 92);
+  text-decoration: none;
+  width: 14rem;
+  
+  cursor: pointer;
+}
+.nav-menu a {
+  text-decoration: none;
+  margin: 0.5rem;
+  margin-top: 1.5rem;
+  color: black;
+}
+
+
+@media screen and (max-width: 800px){
+  .nav-menu{
+    display:none
+  }
+}
+.toggle-btn{
+  background: transparent;
+  border: transparent;
+  color: rgb(56, 168, 243);
+  font-size:2rem; 
+  margin-left: 0rem;
+}
+.toggle-btn:hover{
+  transform: rotate(90deg);
+  transition: all 0.3s linear;  
+}
+
+.nav-container{
+  height: 0;
+  overflow: hidden;
+  transition: all 0.3s linear;
+  background-color: white;
+}
+
+.show-container{
+  display:inline-block;
+  height: 9rem;
+  background-color: #fff;
+  width:100%;
+  transition: all 0.3s linear;
+}
+.nav-item1{
+  position: absolute;
+  animation-name: drop;
+  animation-duration:  0.6s ;
+  animation-iteration-count: 1;
+  background-color: gainsboro;
+  border: 0.2rem solid grey
+}
+@keyframes drop {
+  0%{top: -5rem;}
+  
+  100%{top: 1rem}
+  
+}
+.nav-item2{
+  position: absolute;
+  margin-top: 2.5rem;
+  animation-name: drop2;
+  animation-duration:  1s ;
+  animation-iteration-count: 1;
+
+  background-color: gainsboro;
+  border: 0.2rem solid grey
+}
+@keyframes drop2 {
+ 
+  0%{margin-top: -8rem; }
+
+  100%{margin-top:2.5rem;}
+  
+}
+
+.nav-buttons{
+  display:block;
+
+  margin:0.5rem;
+ 
+}
+
+.tour{
+  display: grid;
+  grid: repeat(3, 520px) / auto-flow 155px;
+  grid-auto-rows: 2rem;
+  margin-top: 2rem;
+  margin-left: 2rem
+}
+
+.single-tour{
+  background-color: white;
+  width: 25rem;
+  height: 30rem;
+  cursor: pointer;
+  box-shadow: rgb(216, 233, 233) 4px 6px;
+}
+.single-tour:hover{
+  background-color: rgba(173, 255, 244, 0.932);
+}
+.single-tour h4{
+  margin-left: 2rem;
+  float: left;
+}
+.single-tour p{
+  margin-top: 1.4rem;
+  margin-right: 2rem;
+  float: right
+}
+.single-tour p span{
+  font-weight: bolder;
+}
+.city{
+  margin-top: 3rem;
+  margin-left: -1rem;
+  justify-content: center;
+  display:grid;
+  grid: repeat(1,180px)/auto-flow 130px;
+
+ 
+}
+.city p{
+text-align: right;
+  
+}
+.single-tour-img{
+  width: 25rem;
+  height: 16rem;
+}
+.single-tour-btn{
+  background-color: rgb(56, 151, 189);
+  border: 3px rgb(56, 151, 189) solid ;
+  width: 90%;
+  position:sticky;
+  margin-bottom: 1rem;
+  margin-left: 0rem;
+  color:  white;
+  font-weight: bolder;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+.single-tour-btn:hover{
+  background-color:  rgb(96, 198, 238);
+  color: white;
+}
+.footer-btn{
+  position: relative;
+  margin-top: -5rem;
+  margin-left: 10%
+}
+.single-tour-section{
+margin-top: 9rem;
+}
+
+@media screen and (min-width: 800px){
+  .toggle-btn{
+    display: none;
+  }
+  .nav-container{
+    display: none;
+  }
+
+
+.nav button{
+  background-color: white;
+  color: rgb(56, 151, 189);
+  border: 0ch;
+  font-size: 1.3rem;
+  cursor:pointer;
+  margin-top: 1rem
+}
+.Holiday-btn{
+  margin-left: 4rem;
+  color: black;
+  margin-top: 0.5rem;
+  font-size: 3.5rem;
+  background: transparent;
+  border: transparent
+
+}
+
+.Holiday-btn:hover{
+  cursor:pointer;
+  color:rgb(89, 95, 97);
+}
+.nav-btn{
+  display: inline-flex;
+  margin-left: 40%;
+  font-size: 1.3 rem
+
+}
+.tour{
+  display: grid;
+  grid: repeat(3, 540px) / auto-flow 455px;
+  grid-auto-rows: 2rem;
+  margin-top: 9rem;
+  margin-left: 2rem
+}
+.single-tour{
+  background-color: white;
+  width: 25rem;
+  height: 30rem;
+  cursor: pointer;
+  box-shadow: rgb(216, 233, 233) 4px 6px;
+}
+.single-tour:hover{
+  background-color: rgba(173, 255, 244, 0.932);
+}
+.single-tour h4{
+  margin-left: 2rem;
+  float: left;
+}
+.single-tour p{
+  margin-top: 1.4rem;
+  margin-right: 2rem;
+  float: right
+}
+.single-tour p span{
+  font-weight: bolder;
+}
+.city{
+  margin-top: 3rem;
+  margin-left: -1rem;
+  justify-content: center;
+  display:grid;
+  grid: repeat(1,80px)/auto-flow 130px;
+
+ 
+}
+.city p{
+text-align: right;
+  
+}
+.single-tour-img{
+  width: 25rem;
+  height: 16rem;
+}
+.single-tour-btn{
+  background-color: rgb(12, 158, 255);
+  border: 3px rgb(12, 158, 255) solid ;
+  width: 90%;
+  position:sticky;
+  margin-bottom: 1rem;
+  margin-left: 0rem;
+  color:  white;
+  font-weight: bolder;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+.single-tour-btn:hover{
+  background-color:  rgb(1, 183, 255);
+  color: white;
+}
+.footer-btn{
+  position: relative;
+  margin-top: 1.5rem;
+  margin-left: 10%
+}
+.single-tour-section{
+  margin-top: 9rem;
+}
+.single-tour-section p{
+  margin: 2rem;
+  font-size: 1rem;
+}
+}
+.single-tour-div{
+  display: inline-flex;
+  margin-left: 2rem;
+  float: left
+}
+.single-tour-p-div{
+  margin-left: 2rem;
+  background: rgb(231, 238, 247);
+  width: 30rem; 
+}
+.single-tour-country-p{
+  margin-left: 3rem;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  justify-content: space-between;
+}
+.social-div{
+  width: 3rem;
+  height: 9rem;
+  display: block;
+  font-size: 3rem;
+  color:cornflowerblue;
+  background-color:rgb(54, 54, 53);
+  position:fixed  ;
+  margin-left: -0.5rem;
+  margin-top: 40%;
+  z-index: 1;
+}
+.social-div a{
+  background:transparent;
+  text-decoration: none;
+  color:rgb(205, 209, 230);
+  background: transparent; 
+  z-index: 1;
+}
+.social-icon{
+  display:flex
+}
+.face-div,.insta-div, .twitter-div{
+  width: 12rem;
+  height: 2.6rem;
+  font-size: 1rem;
+  text-align:center;
+  background-color: rgb(89, 89, 97);
+  color: white;
+  display: block;
+  position:absolute;
+  margin-top:.5rem;
+  margin-left: 3rem;
+  z-index: 1;
+  transition: all 0.5s linear;
+  opacity: 0.7;
+  transform: translateX(-125%);
+}
+
+.show-icon-div{
+  display:block;
+  transform: translateX(0%);
+  transition: all 0.3s linear;
+  opacity: 0.8;
+  z-index: 1;
+}
+
+
+.slide-img{
+  position: relative;
+  width: 100%;
+  height:110%;
+  margin: 0;
+  padding: 0;
+ z-index: 0 
+}
+
+.slide-btn-prev{
+  position:relative;
+  margin-top: -10rem;
+  margin-left: 4rem;
+  background-color: transparent;
+  color: rgb(104, 108, 109);
+  font-size: 3rem;
+  border:transparent;
+  z-index: 1;
+}
+.slide-btn-next{
+  position:relative ;
+  margin-top: -10rem;;
+  margin-left: 85% ;
+  background-color: transparent;
+  color: rgb(104, 108, 109);
+  font-size: 3rem;
+  border:transparent;
+ z-index: 1
+}
+
+.slider-div{
+  position: relative;
+  margin-top: 0rem;
+  padding-top:0;
+  width: 100%;
+  height: 40rem;
+  display: flex;
+  overflow: hidden;
+}
+article {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: all 0.3s linear;;
+}
+.current-slide{
+  opacity: 1;
+  transform: translateX(0);
+  width: 100%;
+  height: 100%
+}
+.prev-slide{
+  transform: translateX(-100%);
+}
+.next-slide{
+  transform: translateX(100%);
+  
+}
+.welcome-section{
+  width: 100%;
+  display:flex
+}
+.welcome-heading-div{
+  width: 3rem;
+  height: 5rem;
+}
+.welcome-heading-div h1{
+  font-size:2.5rem;
+  margin-left:10rem;
+  margin-top: 4rem;
+}
+.welcome-p-div{
+  width: 53%;
+  margin-top: 3rem;
+  margin-left: 35%;
+  line-height: 1.5rem;
+  text-align: justify;
+  color:rgb(133, 124, 124)
+}
+
+.grid-container{
+  width: 45rem;
+  height: 20%;
+  margin-top: 5%;
+  margin-left: 20%;
+  display: grid;
+  grid: repeat(3, 10rem)/auto-flow 15rem;
+
+}
+
+.grid-item{
+  width: 15rem;
+  height: 10rem;
+  margin:0;
+
+}
+.grid-img{
+  width: 100%;
+  height:100%;
+  margin:0;
+  
+}
+.item1 {
+  grid-column: 1 ;
+  grid-row: 1 / span 2;
+  height: 30rem;
+}
+
+.cards-section{
+  width: 100%;
+  height: 20rem;
+  background: linear-gradient(  rgb(143, 154, 163) 40%,white 80%, rgb(82, 88, 94) 100%);
+  margin-top: 0rem;
+}
+
+.cards-container{
+  width: 38rem;
+  height: 12rem;
+  margin-top:45%;
+  margin-left:15%;
+  display: inline-flex;
+}
+.card{
+  width: 18rem;
+  height: 16rem;
+  margin-top: 0rem;
+  margin:0.9rem;
+  background-color:white;
+  text-align: center;
+  font-size: 2.1rem;
+  color:rgb(0, 0, 0); 
+}
+
+
+
+
+
+.selected-holiday{
+  width: 90%;
+  margin-top: 10%;
+  margin-left:3%;
+  display:inline-flex
+}
+.table{
+  width: 100%;
+  margin-left:0;
+
+}
+
+
+.city-div{
+  position: absolute;
+  margin-top:-3% ;
+  display: inline-flex;
+  width: 36.5%;
+  height: 12%;
+  margin-left: 2.8%;
+  margin-bottom: -18% ;
+}
+.city-section{
+  text-align: center;
+  border-bottom: 0.3rem solid rgb(156, 155, 155);
+  position:relative;
+  font-weight: bold;
+  width: 10.6rem;
+  height: 1.9rem;
+  cursor: pointer;
+  margin-bottom: 0;
+  margin-top:0%;
+  margin-left:0%
+}
+.selected{
+  border-left: 0.3rem rgb(156, 155, 155) solid;
+
+  border-top: 0.3rem rgb(156, 155, 155) solid;
+
+  border-right: 0.3rem rgb(156, 155, 155) solid;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+
+  border-bottom:transparent;
+  background: gainsboro;
+  font-size: 1.3rem;
+  text-decoration: underline;
+ text-underline-position: under;
+ text-decoration-thickness: 0.2rem;
+  color:rgb(102, 102, 102);
+}
+ul{
+  list-style: none;
+  margin-left: 0rem;
+
+ 
+}
+.holiday-plan{
+  margin-top: -1.2%;
+  margin-left:0;
+  width: 100%;
+
+}
+.loc-title-p{
+  font-size: 2rem;
+  margin-left: 3rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+.loc-plan-p{
+  font-size: 2rem;
+  margin-left: 3rem;
+  margin-bottom: 5rem;
+  font-weight: bold;
+
+}
+.day-div{
+
+  width: 80.4%;
+  margin-left:0rem;
+  height: 2rem;
+  overflow: hidden;
+  background-color:rgba(241, 241, 241, 0.733);
+  border-left: 0.2rem solid   rgb(156, 155, 155);
+  border-right: 0.2rem solid  rgb(156, 155, 155);
+}
+.day-div-selected{
+  overflow: visible;
+  height:auto;
+  background-color:rgba(241, 241, 241, 0.733);
+  border-left: 0.2rem solid  rgb(156, 155, 155);
+  border-right: 0.2rem solid  rgb(156, 155, 155);
+
+}
+ul li {
+  font-size: 1rem;
+  line-height: 2rem;
+  text-align: left;
+  margin-left:0.4rem;
+}
+ul li:hover{
+  background-color:rgb(212, 211, 201);
+  color: white
+}
+.day-div-title{
+  height: 2rem;
+  border: 0.11rem solid gainsboro;
+  border-left:  0.2rem rgb(156, 155, 155) solid;
+  border-right: 0.2rem solid  rgb(156, 155, 155);
+  color: black;
+  font-size: 4rem;
+  font-weight: bolder;
+  width: 80.4%;
+  margin-left: 0%;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  display: inline-flex;
+  background-color:gainsboro;;
+  cursor: pointer;
+
+}
+
+.day-div-title p{
+  width: 3rem;
+  font-size: 1rem;
+  margin-left: 1rem;
+  margin-top:0.5em;
+  
+}
+
+.div-select-btn{
+  position: relative;
+  font-size: 2rem;
+  background: transparent;
+  border:transparent;
+  cursor:pointer;
+  color:rgba(180, 172, 172, 0.76);
+  margin-left: 73%;
+  margin-top: 0em;
+  padding-top:0em;
+  margin-bottom: 0rem;
+
+}
+.collapse{
+  display:none
+}
+.div-select-btn:hover  {
+  transform: rotate(180deg);
+  transition: all 0.3s linear;  
+}
+.div-selected-btn{
+  font-size: 2rem;
+  background: transparent;
+  border:transparent;
+  cursor:pointer;
+  margin-left: 13.7rem;
+  display:none
+ 
+}
+.escale{
+  display:none
+}
+.title-div{
+
+
+  margin-left: 55%
+}
+
+.europe-img{
+  position:relative;
+
+  margin-left: 4%;
+  margin-top:0%;
+  margin-bottom: 0%;
+  width: 35rem
+ 
+}
+
+
+
+
+.locations-container{
+  width: 64rem;
+  height:20rem;
+  display: inline-flex;
+  margin-left: 13%;
+  margin-top: 5rem
+}
+.locations-imgs-div{ 
+  margin-left: 3%;
+  height: 12rem;
+  width:12rem;
+  margin-top: 2rem;
+}
+
+
+
+.location-img{
+  width: 11rem;
+
+  height:8rem;
+  margin-left:0%;
+  margin-top: 2rem;
+}
+.city-btn{
+  width: 4rem;
+  height: 5rem;
+  margin-left: 0rem;
+  margin-top: 8%;
+  font-size: 2rem;
+  color: black;
+  border:transparent;
+  background: transparent;
+  text-decoration: none;
+
+}
+.city-title{
+  display:content;
+  margin-bottom:0rem;
+  margin-top:0;
+  margin-left:2%;
+  font-size: 1rem;
+  line-height: 3rem;
+  color: black;
+  height: 25%;
+}
+.city-title-p{
+  width: 70%;
+  margin-left:6%;
+  margin-top:0;
+  margin-bottom:3rem
+}
+.img-right-div{
+  width:80%;
+  height:130%;
+  margin-left: -4%;
+  margin-top:5%
+}
+.loc-img-div{
+  width: 100%;
+  height:140%
+
+}
+.loc-img{
+
+  width: 100%;
+  height: 140%;
+
+}
+
+
+
+.loc-prev-btn{
+  position: relative;
+  margin-top:1%;
+  margin-left:-0.8rem;
+  margin-right: -1rem;
+  padding:0;
+  font-size: 3rem;
+  background:transparent;
+  border:transparent;
+  color: rgb(137, 150, 163) ;
+  cursor: pointer
+}
+.loc-next-btn{
+  position:absolute;
+  margin-top: 10.6%;
+  margin-left: 93.5%; 
+  background:transparent;
+  border: transparent;
+  font-size: 3rem;
+  color: rgb(137, 150, 163) ;
+  cursor: pointer;
+
+}
+.loc-grid-div{
+  position: relative;
+  margin-left:auto -3rem;
+  margin-top:0;
+  width:40rem;
+  height: 12rem;
+  background:transparent;
+  overflow:hidden;
+  display: inline-flex;
+
+  transition: all 0.3s linear
+}
+.grid-loc-img{
+  width: 10rem;
+  height: 8rem;
+  margin: 1rem;
+}
+
+.loc-grid-div-current{
+  /* display:inline-flex; */
+  transform: translateX(0%);
+  transition: all 0.3s linear;
+  width: 15rem;
+  margin: 0.3rem;
+  height: 10rem;
+  cursor: pointer;
+  opacity: 1;
+}
+.loc-grid-div-current:hover{
+  opacity: 0.7;
+}
+
+.selected-img-div{
+  padding-top: 100px;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  display:none;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-left: auto;
+  margin-right: auto
+}
+.selected-img-clicked{
+  display:block;
+  width: 100%;
+  margin-top: -8%;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+.selected-img{
+  width: 80%;
+  height: 80%;
+  margin: 7%;
+  opacity:  1;
+}
+
+.close-btn{
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color:rgba(255, 255, 255, 0.76);
+  border: transparent;
+  background: transparent;
+  z-index: 3;
+  position: absolute;
+  margin-left: 80%;
+  margin-top: 5%;
+  cursor: pointer;
+}
+@keyframes zoom {
+  from {transform: scale(0.1)} 
+  to {transform: scale(1)}
+}
+
+
+.accomidation-div{
+  background-color:rgba(241, 241, 241, 0.733);
+  border: 0.3rem solid gainsboro;
+  border-radius: 1rem;
+  height: 16rem;
+  margin-top: 2rem;
+  margin-left: 3rem;
+  display: block;
+  width: 45%;
+  height: 30%
+
+}
+.accomidation-p{
+  font-size: 2rem;
+  font-weight: bolder;
+  line-height: 2rem;
+  margin-left: 4rem;
+  margin-top: 15%;
+}
+.accomidation-select-div{
+  width:100%;
+  height: 10%;
+  margin: 1.1rem;
+  display: inline-flex;
+  margin-left:2rem;
+  margin-top:0.5rem
+
+}
+
+
+.accomidation-lbl-div{
+  width: 4.3rem;
+  height: 10%;
+  font-size: 1.1rem
+}
+.accomidation-select-div select{
+  width: 7rem;
+  height: 15%;
+  font-size:   1.1rem;
+  margin-top:0rem;
+  margin-left: 1rem
+}
+.submit-btn-accomidation{
+  background:ghostwhite;
+  border:0.1rem solid black;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  height: 2.1rem;
+  font-size: 1.1rem;
+  margin-left: 2rem;
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+  color: black
+}
+.submit-btn-accomidation:hover{
+  background:rgb(198, 198, 204);
+}
+.hotel-container{
+  top:6rem;
+  left:0;
+  position:relative;
+  width:100%;
+  margin: 2rem;
+  margin-top:0;
+
+}
+.loc-htl-select-btn{
+  width: 7rem;
+  height: 1.8rem;
+  border-radius: 0.5rem;
+  background: transparent;
+  border: 0.2rem solid rgb(187, 184, 184);
+  color:rgb(82, 80, 78);
+  font-size: 1rem;
+  font-weight: bold;
+  margin:  0.5rem;
+  margin-top: 0rem;
+  cursor: pointer
+}
+.loc-htl-select-btn:hover{
+  background:gainsboro;
+  color: rgb(112, 109, 109);  
+}
+.submit-btn-div{
+  margin-top: 2rem;
+}
+.htl-loc-btn-div{
+  display:flex;
+  height: 3rem;
+  border-bottom: 0.5rem solid gainsboro;
+  margin-bottom: 3rem;
+}
+
+.htl-loc-btn-div label{
+  margin-top: 0.3rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.city-select{
+  font-size: 1rem;
+  margin-left: 0.8rem
+}
+.single-hotel-container{
+  display: inline-flex;
+  margin-top: -1rem;
+  width: 100%
+
+}
+
+.hotel-abt-img{
+  width: 18rem;
+  height: 90%;
+  margin:0
+}
+.single-hotel{
+
+width: 40%;
+border-bottom: 0.3rem solid gainsboro;
+  margin: 2rem;
+  
+}
+.single-hotel-name{
+ 
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-left: 0rem;
+  margin-top: -3rem;
+  margin-bottom: 2rem;
+  width:100%;
+  height: 2rem;
+
+}
+.single-hotel-name span{
+  color:rgb(245, 226, 143);
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin-left: 0.5rem;
+  margin-top:0.8rem
+}
+
+.single-hotel-address{
+
+  font-weight: 1rem;
+  margin-left: 0rem;
+  margin-top:-3rem;
+  color:rgb(82, 80, 78);
+
+}
+
+.hotel-img{
+  width: 8rem;
+  height: 8rem;
+  margin: 0.2rem;
+  margin-left: -3rem;
+  margin-inline-start: 0.3rem;
+  margin-top: 1rem;
+}
+
+
+.hotel-img-grid{
+  width: 90%;
+  height: 90%;
+  background: rgba(0, 0, 0, 0.747);
+  position: fixed;
+  top:10%;
+  left:5%;
+
+}
+.full-htl-img{
+  width: 90%;
+  height: 90%;
+  margin-top:3%;
+  margin-left: 5%;
+  margin-right: auto
+}
+.htl-img-btn{
+  font-size: 3rem;
+  position:absolute;
+  margin-top: 20rem;
+  color: #fff;
+  background: transparent;
+  border: transparent
+}
+.htl-img-close-btn{
+  color:#fff;
+  position:absolute;
+  right:0;
+
+  margin-right: 2rem;
+  background: transparent;
+  border: transparent;
+  font-size: 2rem
+}
+.footer{
+  position:relative;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 0;
+  width: 100%;
+  height: 12rem;
+  border-top: solid grey 0.1rem;
+  background-color: #fff;
+  color: black;
+  padding-top: auto;
+  margin-top:3rem;
+}
+.footer-list{
+  list-style-type: none;
+  display:flex;
+
+
+
+}
+.footer-list li{
+    /* font-weight: bold; */
+    cursor: pointer;
+    font-size: 1.4rem;
+    margin-block-start: 2rem;
+    margin-left: 2rem;
+ line-height: 5rem
+}
