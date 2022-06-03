@@ -11,7 +11,7 @@
         city: 'London',
         img: ['/slider-images/Europe-England-London-Big-Ben-MH.jpeg','/slider-images/switzerland-europe.jpeg',
             '/slider-images/swiotzerlnd.jpeg','/slider-images/itl.jpeg','/slider-images/italy.webp'],
-        about: "London is the first tourism destinations in europe"
+        about: "First tourism destinations in europe"
     },
      {
         city: 'Paris',
@@ -26,7 +26,7 @@
          img: ['/slider-images/Europe-England-London-Big-Ben-MH.jpeg','/slider-images/switzerland-europe.jpeg',
          '/slider-images/swiotzerlnd.jpeg', '/slider-images/italy.webp', '/slider-images/hero--europe--florence.jpeg',
                  ],
-         about: "top destination for many tourism"
+         about: "Top destination for many tourism"
              
     }
     
