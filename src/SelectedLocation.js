@@ -203,7 +203,7 @@ useEffect(()=>{
                 <button className = {`${isDay7TitleBtnClicked ? 'div-select-btn ' : 'div-select-btn escale '  }`}
                  onClick = {()=>{setIsDay7TitleBtnClicked(!isDay7TitleBtnClicked)}}> <AiFillCaretDown/></button>
                 </div>
-                <div className = {`${isDay7TitleBtnClicked? 'day-div  day-div-selected': 'day-div'}`}>
+                <div className = {`${isDay7TitleBtnClicked? 'day-div  day-div-last  day-div-selected': 'day-div-last day-div'}`}>
                      {    holidayData[no].daysPlan[6].day7.map((item)=> {
                     return <li>{item}</li>    
                     })
