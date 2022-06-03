@@ -10,7 +10,7 @@ const Welcome = ()=>{
              <p> With a strong presence in inbound travel trade </p>
             
                  <p>
-                 At Holiday we plan your holiday </p>  
+                 At Holiday, plan your holiday </p>  
                 </div>
           
 
