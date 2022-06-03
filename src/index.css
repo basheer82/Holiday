@@ -1076,5 +1076,8 @@ border-bottom: 0.3rem solid gainsboro;
     font-size: 1.4rem;
     margin-block-start: 2rem;
     margin-left: 2rem;
- line-height: 5rem
+ line-height: 2rem
+}
+.day-div-last{
+  border-bottom: 0.2rem rgb(156, 155, 155) solid;
 }
