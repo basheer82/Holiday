@@ -11,7 +11,7 @@
         city: 'London',
         img: ['/slider-images/Europe-England-London-Big-Ben-MH.jpeg','/slider-images/switzerland-europe.jpeg',
             '/slider-images/swiotzerlnd.jpeg','/slider-images/itl.jpeg','/slider-images/italy.webp'],
-        about: "London is one of the world's tourism destinations"
+        about: "London is the first tourism destinations in europe"
     },
      {
         city: 'Paris',
