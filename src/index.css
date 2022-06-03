@@ -1060,8 +1060,8 @@ border-bottom: 0.3rem solid gainsboro;
   border-top: solid grey 0.1rem;
   background-color: #fff;
   color: black;
-  padding-top: auto;
-  margin-top:3rem;
+  padding-top: 4rem;
+  margin-top:14rem;
 }
 .footer-list{
   list-style-type: none;
