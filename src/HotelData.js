@@ -113,13 +113,30 @@ const hotelData = [
         image: ['./hotels/hilton.jpeg', './hotels/hilton1.jpeg', './hotels/hilton3.jpeg',
                 './hotels/hilton4.jpeg']
     },
+       {
+        name: 'The May Fair, A Radisson Collection Hotel, Mayfair London',
+        city: 'Italy',
+        stars: '* * * * *',
+        address: ' Stratton Street, Mayfair, Westminster Borough, London, W1J 8LT, United Kingdom ',
+        image: ['./hotels/mayfair.jpeg', './hotels/mayfair1.jpeg', './hotels/mayfair2.jpeg', './hotels/mayfair3.jpeg',
+              './hotels/mayfair4.jpeg']
+    },
     {
-        name: 'MONUN Hotel',
+        name: 'Hilton London Canary Wharf',
         city: 'Italy',
         stars: '* * * *',
-        address: '5 Via Sonnino, 74023 Grottaglie, Italy',
-        image: ['./hotels/monun.jpeg', './hotels/monun2.jpeg']
-    },   
+        address: 'South Quay, Marsh Wall, Tower Hamlets, London, E14 9SH, United Kingdom –',
+        image: ['./hotels/hilton.jpeg', './hotels/hilton1.jpeg', './hotels/hilton3.jpeg',
+                './hotels/hilton4.jpeg']
+    },
+        {
+        name: 'Hampton',
+        city: 'Italy',
+        stars: '* * *',
+        address: '157 Waterloo Road, Lambeth, London, SE1 8XA, United Kingdom ',
+        image: ['./hotels/hampton.jpeg', './hotels/hampton2.jpeg', './hotels/hampton3.jpeg', 
+            './hotels/hampton4.jpeg','./hotels/hampton5.jpeg']
+    },
     {
         name: 'The Omnia',
         city: 'Switzerland',
