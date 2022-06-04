@@ -1081,3 +1081,10 @@ border-bottom: 0.3rem solid gainsboro;
 .day-div-last{
   border-bottom: 0.2rem rgb(156, 155, 155) solid;
 }
+.refText{
+  display:hidden;
+  z-index: 0;
+  position: absolute;
+  top: 0rem;
+  right:0
+}
