@@ -10,7 +10,7 @@ import {AiOutlineClose} from "react-icons/ai";
 import HotelForm from './HotelForm'
 
 const SelectedLocation = ()=>{
-    
+     const refDiv = useRef(null)
     const[loca, setLoca] = useState([locationsData])
     const[loc, setLoc] = useState('')
     const {location, setLocation, imgUrl, setImgUrl, click, setClick,handleBtnClick } = useGlobalContext()
