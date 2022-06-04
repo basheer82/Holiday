@@ -1,4 +1,4 @@
-import React, {useState, useEffect}  from "react"
+import React, {useState, useEffect, useRef}  from "react"
 import europe from './europe.jpeg'
 import locationsData from "./locationsData"
 import { useGlobalContext } from "./context"
@@ -88,7 +88,9 @@ useEffect(()=>{
     
     },[selectedImgIndex])
 
-
+useEffect(()=>{
+    refDiv.current.focus()
+},[])
   
     return(
         <>
@@ -97,7 +99,7 @@ useEffect(()=>{
         
         <div className = 'table'>
         <div className = 'city-title'>
-       
+          <input type = "button" ref = {refDiv}  className = 'refText'/>
          <p className ='loc-title-p' >{location}</p>
        <p className ='city-title-p'>{about}</p> 
        </div>
