@@ -10,6 +10,12 @@
 },
   {
     img:'./slider-images/imag.jpeg'
+},
+  {
+    img:'./slider-images/img.jpeg'
+},
+  {
+    img:'./slider-images/mountain.jpeg'
 }
 
 
