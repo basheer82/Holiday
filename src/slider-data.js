@@ -13,11 +13,7 @@
 ,
   {
     img:'./slider-images/ballons.jpeg'
-}
-   ,
-{
-    img:'./slider-images/switzerland-europe.jpeg'
-}
+} 
 ]
 
 export default sliderData
