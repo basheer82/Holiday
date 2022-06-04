@@ -19,9 +19,7 @@
     }, 
      {
          city: 'Switzerland',
-         img: ['/slider-images/Europe-England-London-Big-Ben-MH.jpeg','/slider-images/switzerland-europe.jpeg',
-            '/slider-images/hero--europe--florence.jpeg'
-                 ],
+         img: ['/slider-images/Europe-England-London-Big-Ben-MH.jpeg','/slider-images/switzerland-europe.jpeg' ],
          about: "Top destination for many tourism"
              
     }
