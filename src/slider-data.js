@@ -7,6 +7,9 @@
  
 {
     img:'./slider-images/switzerland-europe.jpeg'
+},
+  {
+    img:'./slider-images/imag.jpeg'
 }
 
 
