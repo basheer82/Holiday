@@ -1,8 +1,9 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState, useEffect, useRef} from 'react'
 import sliderData from './slider-data'
 import {FaAngleLeft, FaAngleRight} from "react-icons/fa";
 
 const Slider = ()=>{
+    const refDiv = useRef(null) 
     const [index, setIndex] = useState(0)
 
     const handleNextSlide = ()=>{  
@@ -26,9 +27,12 @@ const Slider = ()=>{
         }, 6000)
         return ()=> clearInterval(slider)
     },[index, sliderData])
-  
+    useEffect(()=>{
+        refDiv.current.focus()
+    },[])
     return(
         <section className = 'slider-div'>
+        <input type = "button" ref = {refDiv}  className = 'refText'/>
            <button className = 'slide-btn-prev' onClick = {handlePrevSlide}><FaAngleLeft/></button>
            {console.log('********')}
            {sliderData.map((image, currentIndex)=>{
