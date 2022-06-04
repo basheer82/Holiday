@@ -12,7 +12,7 @@
      {
         city: 'Paris',
         img: ['/slider-images/itl.jpeg',
-              '/slider-images/mountain.jpeg','/slider-images/img.jpeg'' ],
+              '/slider-images/mountain.jpeg','/slider-images/img.jpeg' ],
         about: "Paris is the second most visited city in Europe after London"
               
      
