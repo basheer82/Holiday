@@ -6,7 +6,7 @@
         },
         {
             city: 'Italy',
-            img: [ '/slider-images/img.jpeg','/slider-images/ballons.jpeg','/slider-images/dalis.jpeg','/slider-images/itl.jpeg','/slider-images/ballons.jpeg','/slider-images/dalis.jpeg'],
+            img: [ '/slider-images/itl.jpeg','/slider-images/ballons.jpeg','/slider-images/dalis.jpeg','/slider-images/itl.jpeg','/slider-images/ballons.jpeg','/slider-images/dalis.jpeg'],
             about: "Second Tourisim destination in europe"
         },
      {
@@ -18,7 +18,7 @@
     }, 
      {
          city: 'Switzerland',
-         img: ['/slider-images/itl.jpeg','/slider-images/ballons.jpeg','/slider-images/dalis.jpeg','/slider-images/img.jpeg', '/slider-images/ballons.jpeg','/slider-images/dalis.jpeg'],
+         img: ['/slider-images/img.jpeg','/slider-images/ballons.jpeg','/slider-images/dalis.jpeg','/slider-images/img.jpeg', '/slider-images/ballons.jpeg','/slider-images/dalis.jpeg'],
          about: "Top destination for many tourism"
              
     }
