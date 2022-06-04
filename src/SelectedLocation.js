@@ -1,5 +1,4 @@
 import React, {useState, useEffect, useRef}  from "react"
-import europe from './europe.jpeg'
 import locationsData from "./locationsData"
 import { useGlobalContext } from "./context"
 import holidayData from './holidayData'
