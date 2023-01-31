@@ -1,4 +1,6 @@
-const hotelData = [
+const hotelData = 
+      [
+   
     {
         name: 'Le Meurice – Dorchester Collection',
         city: 'Paris',
@@ -12,14 +14,14 @@ const hotelData = [
         city: 'Paris',
         stars: '* * *',
         address: ' Avenue du Docteur Lamaze, 93200 Saint-Denis, France ',
-        image: ['./hotels/B&B.jpeg', './hotels/B&B2.jpeg', './hotels/B&B3.jpeg', './hotels/B&B4.jpeg', './hotels/B&B5.jpeg']
+        image: ['./hotels/B&B.jpeg', './hotels/B&B2.jpeg', './hotels/B&B4.jpeg', './hotels/B&B5.jpeg']
     },   
     {
         name: 'Courtyard by Marriott Paris Saint Denis ',
         city: 'Paris',
         stars: '* * * *',
         address: '34 Boulevard De La Liberation, Zac Pleyel, 93200 Saint-Denis, France',
-        image: ['./hotels/countryard.jpeg', './hotels/countryard1.jpeg', './hotels/countryard2.jpeg', 
+        image: ['./hotels/countryard.jpeg', './hotels/countryard1.jpeg',
                 './hotels/countryard3.jpeg','./hotels/countryard5.jpeg', './hotels/countryard6.jpeg']
     },   
     {
@@ -56,7 +58,7 @@ const hotelData = [
         city: 'Paris',
         stars: '* * * *',
         address: '2 Rue de la Haye, 93440 Le Bourget, France',
-        image: ['./hotels/AC.jpeg', './hotels/Ac1.jpeg', './hotels/Ac2.jpeg', './hotels/Ac3.jpeg','./hotels/Ac4.jpeg']
+        image: ['./hotels/AC.jpeg', './hotels/Ac1.jpeg', './hotels/Ac2.jpeg', './hotels/Ac3.jpeg' ]
     },
     {
         name: 'The Landmark London',
@@ -102,7 +104,7 @@ const hotelData = [
         city: 'London',
         stars: '* * * * *',
         address: ' Stratton Street, Mayfair, Westminster Borough, London, W1J 8LT, United Kingdom ',
-        image: ['./hotels/mayfair.jpeg', './hotels/mayfair1.jpeg', './hotels/mayfair2.jpeg', './hotels/mayfair3.jpeg',
+        image: ['./hotels/mayfair.jpeg', './hotels/mayfair1.jpeg', './hotels/mayfair3.jpeg',
               './hotels/mayfair4.jpeg']
     },
     {
@@ -110,7 +112,7 @@ const hotelData = [
         city: 'London',
         stars: '* * * *',
         address: 'South Quay, Marsh Wall, Tower Hamlets, London, E14 9SH, United Kingdom –',
-        image: ['./hotels/hilton.jpeg', './hotels/hilton1.jpeg', './hotels/hilton3.jpeg',
+        image: [ './hotels/hilton1.jpeg', './hotels/hilton3.jpeg',
                 './hotels/hilton4.jpeg']
     },
        {
@@ -118,7 +120,7 @@ const hotelData = [
         city: 'Italy',
         stars: '* * * * *',
         address: ' Stratton Street, Mayfair, Westminster Borough, London, W1J 8LT, United Kingdom ',
-        image: ['./hotels/mayfair.jpeg', './hotels/mayfair1.jpeg', './hotels/mayfair2.jpeg', './hotels/mayfair3.jpeg',
+        image: ['./hotels/mayfair.jpeg', './hotels/mayfair1.jpeg', './hotels/mayfair3.jpeg',
               './hotels/mayfair4.jpeg']
     },
     {
@@ -126,7 +128,7 @@ const hotelData = [
         city: 'Italy',
         stars: '* * * *',
         address: 'South Quay, Marsh Wall, Tower Hamlets, London, E14 9SH, United Kingdom –',
-        image: ['./hotels/hilton.jpeg', './hotels/hilton1.jpeg', './hotels/hilton3.jpeg',
+        image: [ './hotels/hilton1.jpeg', './hotels/hilton3.jpeg',
                 './hotels/hilton4.jpeg']
     },
         {
@@ -151,7 +153,7 @@ const hotelData = [
         stars: '* * * *',
         address: 'Mellingerstrasse 22, 5400 Baden, Switzerland',
         image: ['./hotels/linde.jpeg', './hotels/linde2.jpeg', './hotels/linde3.jpeg', './hotels/linde4.jpeg',]
-    },   
+    }
     
 ]
 export default hotelData
